@@ -6,3 +6,12 @@
 * I was a mechanical engineering major before I was a CS major so I did programming in C using an arduino and MSP 432. Other than that, learning Java in cis 162/163 is my only other experience.
 * <p> This summer I tried teaching myself some HTML, CSS, and Javascript, but am not an expert in any way.</p>
 [Favorite meme](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.buzzfeednews.com%2Farticle%2Flaurenstrapagiel%2Fme-showing-my-mom-a-funny-meme&psig=AOvVaw1DjjE9kqUqmNoMIuzMzVAG&ust=1632587462825000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKjIpbCEmPMCFQAAAAAdAAAAABAJ) 
+### My functional requirements
+* FR1: The website shall include the at least the 5 most common crypto currencies (Bitcoin, Ethereum, Stellar, Binance Coin, Cardano)
+* FR2: The software shall update at least every hour to show the most recent data
+* FR3: The website shall include a dedicated space for news taken from the internet relating to crypocurrencies, that updates at least once a day.
+
+### My non-Functional requirements
+* NFR1: The website shall include multiple pages
+* NFR2: The website shall work on any modern laptop/desktop
+* NFR3: The website shall keep disibility resources in mind
