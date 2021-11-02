@@ -3,6 +3,7 @@ BEGIN{
 	count=0
 	average=0
 	hybridcount=0
+	FS=","
 }
 $4 < 30000 && $4 ~ /[[:digit:]]/ {
 	count+=1
