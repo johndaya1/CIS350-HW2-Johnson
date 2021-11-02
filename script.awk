@@ -13,6 +13,6 @@ $5 ~ /hybrid/ && $6 == 4 {
 	average = average + $4
 }
 END{
-	print "inexpensive count = ",count
-	print "average = ",average/hybridcount
+	print "inexpensive count =",count
+	print "average =",average/hybridcount
 }
