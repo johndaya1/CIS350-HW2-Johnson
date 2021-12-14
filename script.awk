@@ -8,7 +8,7 @@ BEGIN{
 $3 ~ /yes/{
 	pools+=1
 }
-$1 > 3{
+$1 > 3 && $4 ~ /[[:digit:]]/{
 	houses+=1
 	price+= $4
 
