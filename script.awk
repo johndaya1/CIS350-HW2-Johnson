@@ -12,7 +12,7 @@ $1 >= 4{
 	houses+=1
 	price+= $4
 
-
+}
 END{
 	print "pool count = ",pools
 	print "averave 4+ beds = ",price/houses
