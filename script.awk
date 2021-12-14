@@ -8,12 +8,12 @@ BEGIN{
 $3 ~ /yes/{
 	pools+=1
 }
-$1 >= 4{
+$1 > 3{
 	houses+=1
 	price+= $4
 
 }
 END{
-	print "pool count = ",pools
-	print "averave 4+ beds = ",price/houses
+	print "Pool count =",pools
+	print "Average 4+ beds =",price/houses
 }
