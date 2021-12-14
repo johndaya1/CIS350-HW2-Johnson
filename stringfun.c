@@ -7,7 +7,7 @@ char *word;
 word = (char *) malloc(sizeof(char)*maxn);
 
 getline(&word, &maxn, stdin);
-for(int i = strlen(word) - 1; i >= 0; i--){
+for(int i = strlen(word) - 2; i >= 0; i--){
 	if(word[i] == 'g' || word[i] == 'v' || word[i] == 's' || word[i] == 'u'){
 
 	}
